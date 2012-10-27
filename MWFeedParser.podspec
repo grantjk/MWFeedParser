@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
   s.compiler_flags   =  '-Wno-format', '-Wno-format-extra-args'
   s.framework        =  'Foundation'
 
-  s.subspec 'NSString+HTML' do |ss|
-    ss.source_files = 'Classes/NSString+HTML.{h,m}', 'Classes/GTMNSString+HTML.{h,m}'
+  s.subspec 'NSString+MWHTML' do |ss|
+    ss.source_files = 'Classes/NSString+MWHTML.{h,m}', 'Classes/GTMNSString+HTML.{h,m}'
   end
 
   s.subspec 'NSString+XMLEntities' do |ss|
